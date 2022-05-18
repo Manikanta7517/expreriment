@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="gallery.css">
+   
+  </head>
+  <body>
+
+    <div class="gallery-section">
+      <div class="inner-width">
+        <h1>My Gallery</h1>
+        <div class="border"></div>
+        <div class="gallery">
+
+          <a href="agri1.jpg" class="image">
+            <img src="agri1.jpg" alt="">
+          </a>
+
+          <a href="agri2.jpg" class="image">
+            <img src="agri2.jpg" alt="">
+          </a>
+
+          <a href="agri3.jpeg" class="image">
+            <img src="agri3.jpeg" alt="">
+          </a>
+
+          <a href="agri4.jpg" class="image">
+            <img src="agri4.jpg" alt="">
+          </a>
+
+          <a href="agri5.jpg" class="image">
+            <img src="agri5.jpg" alt="">
+          </a>
+
+          <a href="agri6.jpg" class="image">
+            <img src="agri6.jpg" alt="">
+          </a>
+
+          <a href="agri7.jpg" class="image">
+            <img src="agri7.jpg" alt="">
+          </a>
+
+          <a href="agri8.wepb" class="image">
+            <img src="agri8.wepb" alt="">
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+
+  <script>
+    $(".gallery").magnificPopup({
+      delegate: 'a',
+      type: 'image',
+      gallery:{
+        enabled: true
+      }
+    });
+  </script>
+
+  </body>
+</html>

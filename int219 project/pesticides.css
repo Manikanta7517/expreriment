@@ -1,0 +1,17 @@
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    background: url("farmingview.jpeg");
+    font-family: 'Poppins', sans-sherif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+    text-rendering: !important;
+}
